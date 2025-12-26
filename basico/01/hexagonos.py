@@ -168,3 +168,5 @@ anim = animation.FuncAnimation(fig, animate, frames=3*nc*nr, interval=20)
 
 # Salva como vídeo MP4
 anim.save("hexagons.mp4", writer=animation.FFMpegWriter(fps=40), dpi=200)
+
+#
