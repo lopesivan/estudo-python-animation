@@ -29,7 +29,7 @@ def c32(xyz):
 # CONFIGURAÇÃO DA ANIMAÇÃO
 # ==============================================================================
 
-Nf = 1000  # Número de frames da animação
+Nf = 100  # Número de frames da animação
 cl = list(cm.tab10.colors)  # Paleta de 10 cores do matplotlib
 
 # Criação da figura
