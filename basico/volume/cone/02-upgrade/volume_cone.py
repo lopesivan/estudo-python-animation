@@ -31,7 +31,7 @@ def c32(xyz):
 # CONFIGURAÇÃO DA ANIMAÇÃO
 # ==============================================================================
 
-Nf = 10  # Número de frames
+Nf = 2900  # Número de frames
 cl = list(cm.tab10.colors)
 
 # Criação da figura
@@ -146,11 +146,11 @@ formulas_y = ylim[0] + 0.1
 #         bbox=dict(boxstyle='round', pad=0.4, facecolor='lightyellow',
 #                   edgecolor=cl[1], lw=2.5))
 
-ax.text(0, formulas_y - 0.15,
-        r'$V = \int_0^r 2\pi\rho\left(h - \frac{h}{r}\rho\right) d\rho = \frac{1}{3}\pi r^2 h$',
-        size=22, ha='center', va='bottom', weight='bold',
-        bbox=dict(boxstyle='round', pad=0.5, facecolor='lightgreen',
-                  edgecolor=cl[2], lw=3))
+# ax.text(0, formulas_y - 0.15,
+#         r'$V = \int_0^r 2\pi\rho\left(h - \frac{h}{r}\rho\right) d\rho = \frac{1}{3}\pi r^2 h$',
+#         size=22, ha='center', va='bottom', weight='bold',
+#         bbox=dict(boxstyle='round', pad=0.5, facecolor='lightgreen',
+#                   edgecolor=cl[2], lw=3))
 
 
 # ==============================================================================
