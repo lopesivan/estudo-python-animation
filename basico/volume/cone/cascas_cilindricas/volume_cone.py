@@ -41,7 +41,7 @@ def c32(xyz):
 # CONFIGURAÇÃO DA ANIMAÇÃO
 # ==============================================================================
 
-Nf = 600  # Número de frames
+Nf = 100  # Número de frames
 cl = list(cm.tab10.colors)  # Paleta de cores
 
 # Criação da figura
