@@ -61,8 +61,8 @@ info:
 	@echo "PY_LIBDIR   = $(PY_LIBDIR)"
 	@echo "NUMPY_INC   = $(NUMPY_INC)"
 
-show:
-	sxiv *.png
+play:
+	ffplay output.mp4
 
 output.mp4:
 	ffmpeg -framerate 60 -i frames/frame_%06d.png -c:v libx265 -pix_fmt yuv420p10le -crf 18 -preset slow output.mp4
